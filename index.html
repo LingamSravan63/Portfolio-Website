@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sravan Lingam - Portfolio</title>
+    <meta name="description" content="Computer Science Student & ML Enthusiast">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav-brand">
+                <span class="gradient-text">Sravan Lingam</span>
+            </div>
+            
+            <!-- Desktop Navigation -->
+            <div class="nav-menu" id="nav-menu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-sun sun-icon"></i>
+                    <i class="fas fa-moon moon-icon"></i>
+                </button>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title hero-text">
+                    Hi, I'm <span class="gradient-text">Sravan Lingam</span>
+                </h1>
+                <p class="hero-subtitle hero-text">Computer Science Student & Machine Learning Enthusiast</p>
+                <p class="hero-description hero-text">
+                    Passionate about leveraging technology to solve real-world problems. Currently pursuing B.Tech in Computer Science with a focus on Machine Learning and AI.
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i>
+                        Get In Touch
+                    </a>
+                    <a href="#" class="btn btn-outline">
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                    </a>
+                </div>
+
+                <div class="hero-social">
+                    <a href="mailto:sravanlingam6302@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sravan-lingam-290520288/" class="social-link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/LingamSravan63" class="social-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-description">
+                    I'm a dedicated Computer Science student at SR University with a passion for machine learning and software development. With a strong academic record (CGPA: 9.33/10.0) and hands-on experience in various technologies, I'm committed to creating innovative solutions.
+                </p>
+            </div>
+
+            <div class="about-grid fade-in">
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Full Stack Development</h3>
+                    <p>Proficient in modern web technologies and frameworks</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Machine Learning</h3>
+                    <p>Experienced in ML algorithms and deep learning models</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database Management</h3>
+                    <p>Strong foundation in SQL and database design</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Cloud Computing</h3>
+                    <p>Knowledge in cloud platforms and distributed systems</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education section section-alt" id="education">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Education</h2>
+                <p class="section-description">My academic journey and achievements</p>
+            </div>
+
+            <div class="education-card fade-in">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="education-info">
+                            <div class="education-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="education-details">
+                                <h3>Bachelor of Technology in Computer Science</h3>
+                                <p class="institution">SR University</p>
+                            </div>
+                        </div>
+                        <div class="education-date">
+                            <i class="fas fa-calendar"></i>
+                            <span>2022 – 2026</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="cgpa-badge">
+                            <span class="badge">CGPA: 9.33/10.0</span>
+                        </div>
+                        <div class="coursework">
+                            <h4>Relevant Coursework:</h4>
+                            <div class="tags">
+                                <span class="tag">Machine Learning</span>
+                                <span class="tag">Data Structures</span>
+                                <span class="tag">Python</span>
+                                <span class="tag">C Programming</span>
+                                <span class="tag">Database Management System</span>
+                                <span class="tag">Operating System</span>
+                                <span class="tag">Java</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience section" id="experience">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-description">Professional experience and internships</p>
+            </div>
+
+            <div class="experience-card fade-in">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="experience-info">
+                            <div class="experience-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <div class="experience-details">
+                                <h3>Machine Learning Intern</h3>
+                                <p class="company">NIT Warangal</p>
+                                <p class="location">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Warangal, India
+                                </p>
+                            </div>
+                        </div>
+                        <div class="experience-date">
+                            <i class="fas fa-calendar"></i>
+                            <span>June 2024 – July 2024</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="certificate-badge">
+                            <span class="badge">Certificate Available</span>
+                        </div>
+                        <ul class="achievements">
+                            <li>Analyzed and presented findings from 5+ research papers on cloud computing and its integration with machine learning, enhancing knowledge in cutting-edge technologies</li>
+                            <li>Spearheaded an initiative to document cloud workload patterns over two months, leading to insights that refined predictive analytics capabilities within the team while establishing standards for future projects</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section section-alt" id="skills">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-description">Technologies and tools I work with</p>
+            </div>
+
+            <div class="skills-grid fade-in">
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools & Frameworks</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Visual Studio</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Databases</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">MySQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <i class="fas fa-brain"></i>
+                        <h3>Domain Knowledge</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">Deep Learning</span>
+                        <span class="skill-tag">Data Analysis</span>
+                        <span class="skill-tag">Computer Vision</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Projects</h2>
+                <p class="section-description">Some of my recent work and contributions</p>
+            </div>
+
+            <div class="projects-grid fade-in">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Intel Image Classification</h3>
+                        <div class="project-date">
+                            <i class="fas fa-calendar"></i>
+                            <span>Apr 2025</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Implemented a CNN-based image classification model on the Intel Image Dataset to accurately categorize natural and urban scenes such as forests, mountains, and buildings.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Machine Learning</span>
+                        <span class="tech-tag">CNN</span>
+                        <span class="tech-tag">Deep Learning</span>
+                    </div>
+                    <div class="project-achievements">
+                        <h4>Key Achievements:</h4>
+                        <ul>
+                            <li>Performance evaluation performed using accuracy and loss metrics across training and validation sets</li>
+                            <li>Optimized model architecture for improved generalization without additional computational overhead</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/LingamSravan63" class="btn btn-outline btn-sm" target="_blank">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Comparative Analysis of ML Algorithms on Titanic Dataset</h3>
+                        <div class="project-date">
+                            <i class="fas fa-calendar"></i>
+                            <span>May 2024</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Conducted a comprehensive analysis comparing machine learning algorithms on the Titanic dataset, identifying key features influencing survival rates.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Machine Learning</span>
+                        <span class="tech-tag">Data Analysis</span>
+                        <span class="tech-tag">Scikit-learn</span>
+                    </div>
+                    <div class="project-achievements">
+                        <h4>Key Achievements:</h4>
+                        <ul>
+                            <li>Refined predictive accuracy by nearly 20 percent over previous models</li>
+                            <li>Implemented multiple ML models including decision trees and logistic regression</li>
+                            <li>Leveraged comprehensive comparative analysis to identify the most effective approach</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/LingamSravan63" class="btn btn-outline btn-sm" target="_blank">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications section section-alt" id="certifications">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Certifications</h2>
+                <p class="section-description">Professional certifications and achievements</p>
+            </div>
+
+            <div class="certifications-grid fade-in">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="cert-info">
+                        <h3>Cisco CCNA: Introduction to Networks</h3>
+                        <p class="cert-issuer">Cisco</p>
+                        <p class="cert-date">
+                            <i class="fas fa-calendar"></i>
+                            Mar 2024
+                        </p>
+                    </div>
+                    <a href="#" class="btn btn-outline btn-sm">
+                        <i class="fas fa-external-link-alt"></i>
+                        Verify Certificate
+                    </a>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="cert-info">
+                        <h3>Microsoft Certified: Azure AI Fundamentals</h3>
+                        <p class="cert-issuer">Microsoft</p>
+                        <p class="cert-date">
+                            <i class="fas fa-calendar"></i>
+                            Mar 2024
+                        </p>
+                    </div>
+                    <a href="#" class="btn btn-outline btn-sm">
+                        <i class="fas fa-external-link-alt"></i>
+                        Verify Certificate
+                    </a>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="cert-info">
+                        <h3>NPTEL: Database Management System</h3>
+                        <p class="cert-issuer">NPTEL</p>
+                        <p class="cert-date">
+                            <i class="fas fa-calendar"></i>
+                            May 2024
+                        </p>
+                    </div>
+                    <a href="#" class="btn btn-outline btn-sm">
+                        <i class="fas fa-external-link-alt"></i>
+                        Verify Certificate
+                    </a>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="cert-info">
+                        <h3>Salesforce Certified AI Associate</h3>
+                        <p class="cert-issuer">Salesforce</p>
+                        <p class="cert-date">
+                            <i class="fas fa-calendar"></i>
+                            Feb 2025
+                        </p>
+                    </div>
+                    <a href="#" class="btn btn-outline btn-sm">
+                        <i class="fas fa-external-link-alt"></i>
+                        Verify Certificate
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-description">
+                    I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology and innovation.
+                </p>
+            </div>
+
+            <div class="contact-content fade-in">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>Feel free to reach out if you have any questions, want to collaborate, or just want to say hello. I'll do my best to get back to you!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <p class="contact-label">Email</p>
+                                <a href="mailto:sravanlingam6302@gmail.com">sravanlingam6302@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <p class="contact-label">Phone</p>
+                                <a href="tel:+916302003567">+91-6302003567</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <p class="contact-label">Location</p>
+                                <span>India</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form">
+                        <h3>Send me a message</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="gradient-text">Sravan Lingam</span>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="mailto:sravanlingam6302@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sravan-lingam-290520288/" class="social-link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/LingamSravan63" class="social-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+
+                <div class="footer-text">
+                    <p>Made with love by Sravan Lingam</p>
+                    <p>&copy; <span id="current-year"></span> All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <div class="toast-content">
+            <i class="fas fa-check-circle"></i>
+            <span class="toast-message">Message sent successfully!</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
